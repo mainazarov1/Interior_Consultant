@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #181719;
+  color: #fff;
+}
+
+.header {
+  padding: 40px 0 16px;
+}
+.header .header__logo {
+  font-family: "Crimson Pro", serif;
+  font-weight: 200;
+  padding: 8px;
+  max-width: max-content;
+  border: 1px solid #fff;
+}
+
+.page {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+.page__content h1 {
+  font-family: "Lora", serif;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.page__content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.page__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.page__content-arrow {
+  filter: invert(100%);
+}
+.page__image {
+  position: relative;
+}
+.page__image-content {
+  position: absolute;
+  right: 32px;
+  bottom: -88px;
+  background-color: #000;
+}
+.page__image-profile {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.page__image-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.page__image-author {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+/*# sourceMappingURL=style.css.map */
